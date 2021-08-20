@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+
+
+
+body{
+    min-width: 550px;
+    background-color:rgb(25, 40, 68);
+
+}
+.dell{
+    border-radius:5px ;
+    margin-top: -5px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(fire.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.cont{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.text{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 30px;
+   
+}
+.don:hover{
+    box-shadow: 2px 2px 10px black;
+
+}
+
+
+
+
+
+
+.don{
+    transition: 1s ease;
+    margin-right: 30px;
+    font-size:20px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#1f5970 ;
+    border: none;
+    height: 35px;
+    border: 2px solid #1f5970 ;
+    border-radius: 20px;
+    width: 100px;
+    height: 23px;
+     padding: 10px;    
+    
+    
+}
+.don:hover{
+    color: #fff;
+    background-color:#1f5970  ;
+    transition: 0.5s;
+    border: none;
+}
+.bro{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.born{
+    font-family: 'Style Script', cursive;
+    font-size:70px ;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: rgb(230, 198, 56);
+    transition: 2s ease;
+
+}
+.kuch{
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+.kasa{
+    color: #fff;
+    text-shadow:1px 1px 10px black;
+}
+.won{
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 10px black;
+}
+
+
+.bin{
+    padding: 10px;
+    width: 100px;
+    justify-content: center;
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+
+}
+ .bin:hover{
+    color:dodgerblue;
+    background-color: #fff;
+    width: 150px;
+    height: 70px;
+    transition: 2s;
+    box-shadow:1px 1px 10px  black;
+ }
+ .bin:focus{
+     box-shadow: 2px 2px 10px black ;
+     transition: 0.5s;
+ }
+.jhon{
+    background-color: rgb(25, 40, 68);
+    height: 100%;
+    margin-top: -50px;
+     
+}
+.jhon::before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    width: 98.8%;
+    height: 100px;
+    background: linear-gradient(to top,rgb(25, 40, 68),transparent);
+    z-index: 10;
+}
+
+
+
+
+
+
+.bean{
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family:sans-serif ;
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+
+}
+.mena{
+margin-left: 100px;
+width: 80%;
+color: #fff;
+font-family: sans-serif;
+}
+
+
+.fa{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 10px;
+    
+ 
+}
+.bety{
+    
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: #3B5998 ;
+    margin-left: 100px;
+}   
+.bety:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 790px){
+
+    .jhon::before{
+        content:'';
+        position: absolute;
+        bottom: 0;
+        left: 8px;
+        width: 97.9%;
+        height: 100px;
+        background: linear-gradient(to top,rgb(25, 40, 68),transparent);
+        z-index: 10;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .born{
+        font-size: 50px;
+    }
+   .text{
+       width: 67%;
+       margin-left: 10px;
+       
+
+   }
+    .bro{
+        width: 1px;
+        margin-right: 120px;
+        
+    }
+    .don{
+        
+        border: 1px solid #1f5970 ;
+        width: 70px;
+        padding-top:5px ;
+        font-size: 15px;
+        height:9px;
+        padding-bottom:-10px ;
+        text-align:center;
+        
+        
+    }
+    
+}
+
+@media (max-width: 660px){
+
+    .jhon::before{
+        content:'';
+        position: absolute;
+        bottom: 0;
+        left: 8px;
+        width: 97.5%;
+        height: 100px;
+        background: linear-gradient(to top,rgb(25, 40, 68),transparent);
+        z-index: 10;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .born{
+        margin-top: 13px;
+        font-size: 40px;
+    }
+
+
+
+    .text{
+        margin-left:10px ;
+        
+    }
+    .bro{
+        margin-right: 95px;
+
+    }
+}
+
+@media (max-width:375px){
+    .jhon::before{
+        content:'';
+        position: absolute;
+        bottom: 0;
+        left: 8px;
+        width: 102vh;
+        height: 100px;
+        background: linear-gradient(to top,rgb(25, 40, 68),transparent);
+        z-index: 10;
+    }
+    
+}
+
